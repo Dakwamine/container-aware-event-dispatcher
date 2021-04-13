@@ -1,0 +1,22 @@
+{
+    "name": "dakwamine/container-aware-event-dispatcher",
+    "description": "Simple event dispatcher compliant with PSR-14 and using PSR-11 containers.",
+    "type": "library",
+    "require": {
+        "php": ">=7.2",
+        "psr/container": "^2.0",
+        "psr/event-dispatcher": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Quang-Minh DANG",
+            "email": "dakwamine@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dakwamine\\Event\\": "src/"
+        }
+    }
+}
